@@ -1,0 +1,66 @@
+/* RealEstateLaw.css */
+
+.real-estate-banner {
+  height: 70vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  font-family: 'Playfair Display', serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.real-estate-banner .overlay {
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.real-estate-banner .content {
+  z-index: 1;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+.real-estate-banner .content h1 {
+  font-size: 3rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.real-estate-banner .content p {
+  font-size: 1.2rem;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.real-estate-excellence {
+  background: #fdf7f0;
+  padding: 5rem 2rem;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.feature-box {
+  background: white;
+  padding: 2.5rem;
+  margin-bottom: 2.5rem;
+  border-radius: 8px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease;
+}
+
+.feature-box:hover {
+  transform: translateY(-5px) scale(1.02);
+}
+
+.feature-box.box-right {
+  background: #fff8f3;
+}
+
+.section-title {
+  color: #5c4033;
+  font-family: 'Playfair Display', serif;
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+}

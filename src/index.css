@@ -1,0 +1,237 @@
+/* In index.css at the very top */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  background-color: #f8f4f0; /* light brownish background */
+  color: #5a4631; /* dark brown text */
+  margin: 0;
+  padding: 20px;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+h1 {
+  color: #8b6e4e;
+  text-align: center;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ccc;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Show dropdown on hover */
+.nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+/* Optional: remove delay and make smooth */
+.dropdown-menu {
+  transition: all 0.2s ease;
+  margin-top: 0;
+}
+
+/* Remove default Bootstrap dropdown arrow */
+.nav-link.dropdown-toggle::after {
+  display: none;
+}
+
+/* Smaller nav font */
+.navbar-nav .nav-link {
+  font-size: 0.95rem; /* adjust as needed */
+}
+
+/* Show dropdown on hover */
+.nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+/* Remove dropdown arrow */
+.nav-link.dropdown-toggle::after {
+  display: none;
+}
+
+/* Smaller nav font */
+.navbar-nav .nav-link {
+  font-size: 0.95rem;
+}
+
+/* .navbar .nav-link,
+.navbar .navbar-brand {
+  color: #3e2f1c !important;
+} */
+
+.practice-tile {
+  transition: transform 0.3s ease;
+}
+
+.practice-tile .overlay {
+  background-color: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  transition: background-color 0.3s ease;
+}
+
+.practice-tile:hover .overlay {
+  background-color: rgba(139, 94, 60, 0.6); /* Light brown overlay */
+}
+
+.practice-tile:hover {
+  transform: scale(1.03);
+}
+
+.swiper-wrapper::before,
+.swiper-wrapper::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 60px;
+  height: 100%;
+  z-index: 10;
+  pointer-events: none;
+}
+
+.swiper-wrapper::before {
+  left: 0;
+  background: linear-gradient(to right, #fff, rgba(255,255,255,0));
+}
+
+.swiper-wrapper::after {
+  right: 0;
+  background: linear-gradient(to left, #fff, rgba(255,255,255,0));
+}
+
+.fade-in {
+  opacity: 1;
+  transition: opacity 0.3s ease;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+@keyframes zoomInOut {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+  100% { transform: scale(1); }
+}
+
+.navbar-nav .nav-link {
+  font-size: 0.95rem;
+}
+
+@keyframes zoomInOut {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+  100% { transform: scale(1); }
+}
+
+.zoom-hero {
+  animation: zoomInOut 15s ease-in-out infinite;
+}
+
+body {
+  overflow-x: hidden !important;
+}
+
+#search-box {
+  position: relative; /* or fixed if overlay */
+  z-index: 1050;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden !important;
+  width: 100%;
+}
+
+.swiper,
+.swiper-wrapper {
+  max-width: 100%;
+  overflow: hidden;
+}
+
+footer {
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+
+/* @keyframes slideFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animated-navbar {
+  animation: slideFadeIn 0.6s ease-out;
+} */
+
+/* Fade in the navbar */
+.fade-navbar {
+  animation: navbarFadeIn 0.6s ease-in-out;
+}
+
+@keyframes navbarFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Ensure navbar is above everything */
+.navbar {
+  z-index: 1050 !important;
+}
+
+/* Prevent scroll conflicts */
+body, html {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+@keyframes zoomHero {
+  0% { transform: scale(1); }
+  100% { transform: scale(1.05); }
+}
+
+.sticky-navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1050;
+  background-color: rgba(154, 123, 79, 0.85);
+  backdrop-filter: blur(8px);
+  transition: background-color 0.3s ease;
+}
+
