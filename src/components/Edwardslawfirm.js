@@ -338,7 +338,7 @@ useEffect(() => {
               {/* Web3Forms Access Key */}
               <input type="hidden" name="access_key" value="58d78e00-7064-483c-8c1d-0867e8660af3" />
               <input type="hidden" name="subject" value="New Newsletter Subscriber" />
-              <input type="hidden" name="redirect" value="https://lawfirm-eta.vercel.app//ThankYouPage" />
+              <input type="hidden" name="redirect" value="https://www.theedwardsandco.com/ThankYouPage" />
 
               <input
                 type="email"

@@ -68,7 +68,7 @@ const CorporatePage = () => {
         {/* Web3Forms Access Key */}
         <input type="hidden" name="access_key" value="58d78e00-7064-483c-8c1d-0867e8660af3" />
         <input type="hidden" name="subject" value="New Contact Message from Website" />
-        <input type="hidden" name="redirect" value="https://lawfirm-eta.vercel.app/ThankYouPage" />
+        <input type="hidden" name="redirect" value="https://www.theedwardsandco.com/ThankYouPage" />
 
         <div className="mb-4">
             <label className="form-label" style={{ color: '#5c4033' }}>Full Name</label>
