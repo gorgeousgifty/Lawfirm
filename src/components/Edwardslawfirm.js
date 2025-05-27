@@ -331,14 +331,14 @@ useEffect(() => {
           {/* Right - Form */}
           <div className="col-md-6">
             <form
-              action=""
+              action="https://api.web3forms.com/submit"
               method="POST"
               className="d-flex flex-column flex-sm-row gap-3"
             >
               {/* Web3Forms Access Key */}
               <input type="hidden" name="access_key" value="58d78e00-7064-483c-8c1d-0867e8660af3" />
               <input type="hidden" name="subject" value="New Newsletter Subscriber" />
-              <input type="hidden" name="redirect" value="/ThankYouPage" />
+              <input type="hidden" name="redirect" value="https://lawfirm-eta.vercel.app//ThankYouPage" />
 
               <input
                 type="email"
