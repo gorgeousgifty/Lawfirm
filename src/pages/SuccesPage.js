@@ -79,7 +79,7 @@ const SuccesPage = () => {
                 Regulatory Roadblock Resolved for International Real Estate Group
             </h4>
             <p>
-                A global property development firm encountered unexpected regulatory issues while expanding into the Egyptian market. We led their legal compliance efforts, working directly with government entities to streamline licensing, mitigate penalties, and build long-term legal infrastructure.
+                A global property development firm encountered unexpected regulatory issues while expanding into the Ghanaian market. We led their legal compliance efforts, working directly with government entities to streamline licensing, mitigate penalties, and build long-term legal infrastructure.
                 The expansion resumed successfully, with operations across three governorates.
             </p>
 
@@ -93,7 +93,7 @@ const SuccesPage = () => {
             </p>
 
             <div className="mt-5">
-                <a href="#contact" className="btn btn-outline-dark rounded-pill px-4 py-2" style={{ borderColor: '#8B5E3C', color: '#8B5E3C' }}>
+                <a href="/Contactpage" className="btn btn-outline-dark rounded-pill px-4 py-2" style={{ borderColor: '#8B5E3C', color: '#8B5E3C' }}>
                 Share Your Success With Us
                 </a>
             </div>

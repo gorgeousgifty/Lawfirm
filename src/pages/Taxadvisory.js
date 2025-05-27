@@ -96,7 +96,7 @@ const Taxadvisory = () => {
                 fontFamily: 'Open Sans, sans-serif',
             }}
             >
-            Strategic tax solutions for businesses and individuals navigating the complex Egyptian tax landscape.
+            Strategic tax solutions for businesses and individuals navigating the complex Ghanaian tax landscape.
             </p>
         </div>
         </header>

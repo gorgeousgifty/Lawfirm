@@ -60,7 +60,7 @@ const CorporatePage = () => {
     <div className="text-center mb-5" data-aos="fade-up">
         <h2 className="fw-bold" style={{ color: '#5c4033' }}>Corporate Advisory Services</h2>
         <p className="text-muted mx-auto" style={{ maxWidth: '750px', lineHeight: '1.8' }}>
-        We provide expert counsel to corporations, SMEs, and investors navigating complex legal frameworks across various sectors in Egypt and beyond. Our goal is to safeguard your business and empower sustainable growth.
+        We provide expert counsel to corporations, SMEs, and investors navigating complex legal frameworks across various sectors in Ghana and beyond. Our goal is to safeguard your business and empower sustainable growth.
         </p>
     </div>
 

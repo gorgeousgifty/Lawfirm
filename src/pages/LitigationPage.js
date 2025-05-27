@@ -2,8 +2,8 @@ import React, { useEffect } from 'react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import bannerImage from '../Litigation1.jpg'; // You can use a litigation-specific image here
-import articleImage1 from '../lawyers.jpg';
-import articleImage2 from '../welcome.jpg';
+import articleImage1 from '../0001.jpg';
+import articleImage2 from '../002.jpg';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { Swiper, SwiperSlide } from 'swiper/react';

@@ -59,7 +59,7 @@ const DocumentPage = () => {
         <div className="text-center mb-5" data-aos="fade-up">
             <h2 className="fw-bold" style={{ color: '#5c4033' }}>Document Legalization</h2>
             <p className="text-muted mx-auto" style={{ maxWidth: '750px', lineHeight: '1.8' }}>
-            At Edwards and Co., we specialize in authenticating and legalizing official documents for use both in Egypt and abroad. Our thorough knowledge of governmental and consular procedures ensures a hassle-free process for our clients.
+            At Edwards and Co., we specialize in authenticating and legalizing official documents for use both in Ghana and abroad. Our thorough knowledge of governmental and consular procedures ensures a hassle-free process for our clients.
             </p>
         </div>
 
@@ -73,7 +73,7 @@ const DocumentPage = () => {
             {
                 icon: 'file-earmark-text',
                 title: 'Embassy Attestation',
-                description: 'We work directly with foreign embassies in Egypt to have your commercial and personal documents certified for legal and professional use abroad.'
+                description: 'We work directly with foreign embassies in Ghana to have your commercial and personal documents certified for legal and professional use abroad.'
             },
             {
                 icon: 'globe',

@@ -2,8 +2,9 @@ import React from 'react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import bannerImage from '../Case1.jpg'; // add a full-width banner image for the page
-import articleImage1 from '../lawyers.jpg';
-import articleImage2 from '../welcome.jpg';
+import articleImage1 from '../003.jpg';
+import articleImage2 from '../004.jpg';
+import articleImage3 from '../006.jpg';
 import { useEffect } from "react";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -65,9 +66,9 @@ const CasePage = () => {
 
         {[
             {
-            title: 'Landmark Corporate Restructuring for Egyptian Conglomerate',
+            title: 'Landmark Corporate Restructuring for Ghanaian Conglomerate',
             image: articleImage1,
-            description: 'Edwards and Co. advised a major Egyptian manufacturing group on restructuring its corporate holdings to streamline operations and reduce liability. The process involved negotiating with multiple stakeholders, revising governance structures, and achieving tax efficiency while ensuring full compliance with Egyptian commercial law.',
+            description: 'Edwards and Co. advised a major Ghanaian manufacturing group on restructuring its corporate holdings to streamline operations and reduce liability. The process involved negotiating with multiple stakeholders, revising governance structures, and achieving tax efficiency while ensuring full compliance with Ghanaian commercial law.',
             },
             {
             title: 'Victory in Cross-Border Intellectual Property Dispute',
@@ -76,8 +77,8 @@ const CasePage = () => {
             },
             {
             title: 'Real Estate Arbitration for High-Net-Worth Clients',
-            image: articleImage1,
-            description: 'Representing a consortium of investors, we secured a favorable arbitration award in a multimillion-dollar dispute related to a luxury development project in New Cairo. Our case preparation and negotiation acumen prevented project delays and preserved client capital.',
+            image: articleImage3,
+            description: 'Representing a consortium of investors, we secured a favorable arbitration award in a multimillion-dollar dispute related to a luxury development project in East Legon, Accra. Our case preparation and negotiation acumen prevented project delays and preserved client capital.',
             }
         ].map((caseItem, idx) => (
             <div className="row align-items-center mb-5" key={idx} data-aos="fade-up" data-aos-delay={idx * 150}>

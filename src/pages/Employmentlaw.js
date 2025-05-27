@@ -96,7 +96,7 @@ const Employmentlaw = () => {
                 fontFamily: 'Open Sans, sans-serif',
             }}
             >
-            Advocating for fairness, protection, and workplace justice in Egypt's ever-evolving labor landscape.
+            Advocating for fairness, protection, and workplace justice in Ghana's ever-evolving labor landscape.
             </p>
         </div>
         </header>
@@ -117,7 +117,7 @@ const Employmentlaw = () => {
               <FaUserShield size={50} color="#8B5E3C" className="mb-3" />
               <h5 className="fw-semibold" style={{ fontFamily: 'Playfair Display' }}>Employee Rights</h5>
               <p style={{ fontFamily: 'Open Sans' }}>
-                Protecting workers from discrimination, harassment, and wrongful dismissal under Egyptian labor law.
+                Protecting workers from discrimination, harassment, and wrongful dismissal under Ghanaian labor law.
               </p>
             </div>
             <div className="col-md-4 mb-4">
@@ -142,7 +142,7 @@ const Employmentlaw = () => {
             individuals, unions, and corporations to uphold rights, navigate disputes, and create safe, legally compliant workplaces.
           </p>
           <p style={{ fontSize: '1.05rem', fontFamily: 'Open Sans' }}>
-            From onboarding to retirement, we guide clients through Egyptian labor legislation, social insurance compliance,
+            From onboarding to retirement, we guide clients through Ghanaian labor legislation, social insurance compliance,
             and cross-border employee contracts. With proven success in mediation, arbitration, and courtroom advocacy,
             we’re your legal partner in building stable and fair professional environments.
           </p>

@@ -28,6 +28,7 @@ const Navbar = ({ toggleSearch }) => {
               <ul className="dropdown-menu">
                 <li><HashLink smooth to="/#about" className="dropdown-item">About Us</HashLink></li>
                 <li><HashLink smooth to="/#team" className="dropdown-item">Our Team</HashLink></li>
+               <li><HashLink smooth to="/Contactpage" className="dropdown-item">Contact Us</HashLink></li>
               </ul>
             </li>
             <li className="nav-item dropdown">

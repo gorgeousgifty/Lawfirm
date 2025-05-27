@@ -60,7 +60,7 @@ const Intellectuallaw = () => {
           <div className="col-md-3" data-aos="zoom-in">
             <i className="bi bi-shield-lock-fill fs-1 text-primary"></i>
             <h5 className="mt-3">Copyrights</h5>
-            <p>Safeguarding literary, artistic, and digital works in Egypt and internationally.</p>
+            <p>Safeguarding literary, artistic, and digital works in Ghana and internationally.</p>
           </div>
           <div className="col-md-3" data-aos="zoom-in" data-aos-delay="100">
             <i className="bi bi-patch-check-fill fs-1 text-success"></i>

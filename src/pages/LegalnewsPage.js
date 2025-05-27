@@ -67,9 +67,9 @@ const LegalnewsPage = () => {
             {[
             {
                 icon: 'gavel',
-                title: 'New Egyptian Arbitration Law Passed',
+                title: 'New Ghanaian Arbitration Law Passed',
                 date: 'May 14, 2025',
-                description: 'Egypt’s Parliament ratifies the Arbitration Reform Act, streamlining international dispute resolution. Learn what this means for corporate clients and investors.'
+                description: 'Ghana’s Parliament ratifies the Arbitration Reform Act, streamlining international dispute resolution. Learn what this means for corporate clients and investors.'
             },
             {
                 icon: 'briefcase',
@@ -87,7 +87,7 @@ const LegalnewsPage = () => {
                 icon: 'shield-check',
                 title: 'Edwards and Co. Expands into Alexandria',
                 date: 'March 25, 2025',
-                description: 'We’re proud to announce the opening of our Alexandria branch, bringing premier legal expertise to Egypt’s northern region.'
+                description: 'We’re proud to announce the opening of our Kumasi branch, bringing premier legal expertise to Ghana’s northern region.'
             }
             ].map((news, idx) => (
             <div key={idx} className="col-md-6" data-aos="fade-up" data-aos-delay={idx * 100}>

@@ -9,7 +9,7 @@ import 'swiper/css/pagination';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import { Link } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
-import lawyersImg from '../lawyers.jpg'; // adjust the path if needed
+import lawyersImg from '../Hero1.png'; // adjust the path if needed
 
 const Edwardslawfirm = () => {
     useEffect(() => {
@@ -45,7 +45,7 @@ useEffect(() => {
         <nav
         className="navbar navbar-expand-lg fixed-top shadow-sm w-100"
         style={{
-            background: 'rgba(154, 123, 79, 0.85)',
+            background: 'rgba(154, 123, 79, 0.78)',
             backdropFilter: 'blur(6px)',
             fontSize: '0.95rem',
             padding: '0.6rem 0',
@@ -174,7 +174,7 @@ useEffect(() => {
         {/* Overlay */}
         <div
           style={{
-            backgroundColor: 'rgba(0, 0, 0, 0.5)',
+            backgroundColor: 'rgba(0, 0, 0, 0.7)',
             position: 'absolute',
             top: 0,
             left: 0,
@@ -224,7 +224,7 @@ useEffect(() => {
             },
             {
               quote: "I trust Edwards and Co. for all my business legal needs.",
-              name: "Kareem T.",
+              name: "David T.",
               role: "Startup Founder"
             }
           ].map((t, idx) => (
@@ -271,7 +271,7 @@ useEffect(() => {
           {/* Right - Image */}
           <div className="col-md-6 text-center px-4">
             <img
-              src={require('../welcome.jpg')} // or another image
+              src={require('../sixth.jpg')} // or another image
               alt="Our Team"
               className="img-fluid rounded shadow"
               style={{ maxWidth: '80%', height: 'auto' }}
@@ -378,12 +378,14 @@ useEffect(() => {
           <h2 className="fw-semibold" style={{ color: '#5c4033' }}>Meet Our Lawyers</h2>
         </div>
         <div className="row justify-content-center" style={{ maxWidth: '1400px', margin: '0 auto' }}>
-          {[
-            { name: 'Amina El-Sayed', title: 'Senior Partner', bio: 'Specialist in corporate law with over 15 years of experience.', image: 'lawyer1.jpg' },
-            { name: 'Youssef Nabil', title: 'Criminal Defense Lawyer', bio: 'Proven success handling complex defense cases across Egypt.', image: 'lawyer2.jpg' },
-            { name: 'Layla Mostafa', title: 'Family Law Expert', bio: 'Helping families through sensitive cases with compassion.', image: 'lawyer3.jpg' },
-            { name: 'Omar Galal', title: 'Real Estate Attorney', bio: 'Trusted for closing high-value property and land deals.', image: 'lawyer4.jpg' },
-            { name: 'Nour Hassan', title: 'International Trade Counsel', bio: 'Advises multinationals on trade compliance and negotiations.', image: 'lawyer5.jpg' }
+          {[ 
+            { name: 'Yvonne Smith', title: 'Senior Partner', bio: 'Specialist in corporate law with over 15 years of experience.', image: 'first.jpg' },
+            { name: 'Amina El-Sayed', title: 'Criminal Defense Lawyer', bio: 'Proven success handling complex defense cases across Egypt.', image: 'second.jpg' },
+            { name: 'Kenneth K. Ofori', title: 'Family Law Expert', bio: 'Helping families through sensitive cases with compassion.', image: 'third.jpg' },
+            { name: 'Omar Galal', title: 'Real Estate Attorney', bio: 'Trusted for closing high-value property and land deals.', image: 'fourth.jpg' },
+            { name: 'Emmanuel A. Nii', title: 'International Trade Counsel', bio: 'Advises multinationals on trade compliance and negotiations.', image: 'fifth.jpg' },
+            { name: 'Nathaniel L. Agyemang', title: 'Tax Advisory Attorney', bio: 'Guides multinationals in tax strategy, trade compliance, and cross-border negotiations.', image: 'seventh.jpg' }
+
           ].map((lawyer, idx) => (
             <div className="col-sm-6 col-lg-4 mb-4 px-4" key={idx} data-aos="fade-up">
               <div className="card shadow h-100 border-0">
@@ -437,23 +439,23 @@ useEffect(() => {
                   date: 'May 10, 2025'
                 },
                 {
-                  title: 'Navigating Business Law in Egypt',
-                  summary: 'Starting a business in Egypt comes with legal obligations. Learn the essentials of company registration, contract compliance, and licensing requirements from a legal expert’s perspective.',
+                  title: 'Navigating Business Law in Ghana',
+                  summary: 'Starting a business in Ghana comes with legal obligations. Learn the essentials of company registration, contract compliance, and licensing requirements from a legal expert’s perspective.',
                   date: 'April 20, 2025'
                 },
                 {
                   title: 'Women in Law: Amina El-Sayed’s Journey',
-                  summary: 'As one of the few female senior partners in Cairo, Amina shares her story of perseverance, leadership, and her passion for mentoring young female lawyers.',
+                  summary: 'As one of the few female senior partners in Ghana, Amina shares her story of perseverance, leadership, and her passion for mentoring young female lawyers.',
                   date: 'March 5, 2025'
                 },
                 {
                   title: 'Corporate Compliance Guide 2025',
-                  summary: 'This article offers a comprehensive roadmap for Egyptian corporations to remain compliant with local and international business laws, helping you avoid costly legal pitfalls.',
+                  summary: 'This article offers a comprehensive roadmap for Ghanaian corporations to remain compliant with local and international business laws, helping you avoid costly legal pitfalls.',
                   date: 'Feb 15, 2025'
                 },
                 {
-                  title: 'Understanding Real Estate Law in Egypt',
-                  summary: 'From land disputes to title verifications, get a legal overview of what to expect when investing in property in Egypt, especially in new urban developments.',
+                  title: 'Understanding Real Estate Law in Ghana',
+                  summary: 'From land disputes to title verifications, get a legal overview of what to expect when investing in property in Ghana, especially in new urban developments.',
                   date: 'Jan 10, 2025'
                 },
                 {
@@ -558,7 +560,7 @@ useEffect(() => {
         <div className="col-md-6 px-4 mb-4 mb-md-0" data-aos="fade-right">
           <h2 className="fw-semibold mb-3" style={{ color: '#5c4033' }}>About Edwards and Co.</h2>
           <p style={{ lineHeight: '1.7' }}>
-            Established in 2020, Edwards and Co. is a full-service Egyptian law firm with deep experience in litigation, commercial transactions, real estate, and international trade. 
+            Established in 2020, Edwards and Co. is a full-service Ghanaian law firm with deep experience in litigation, commercial transactions, real estate, and international trade. 
             <br /><br />
             Our lawyers are trained to combine deep legal knowledge with strategic insight, ensuring our clients receive proactive and practical legal support in every matter.
             <br /><br />

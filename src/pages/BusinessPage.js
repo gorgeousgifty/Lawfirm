@@ -59,7 +59,7 @@ const BusinessPage = () => {
         <div className="text-center mb-5" data-aos="fade-up">
             <h2 className="fw-bold" style={{ color: '#5c4033' }}>Business Legalization Services</h2>
             <p className="text-muted mx-auto" style={{ maxWidth: '750px', lineHeight: '1.8' }}>
-            We assist individuals, entrepreneurs, and corporations with fast, accurate, and compliant document legalization and business setup services in Egypt and internationally.
+            We assist individuals, entrepreneurs, and corporations with fast, accurate, and compliant document legalization and business setup services in Ghana and internationally.
             </p>
         </div>
 
@@ -73,7 +73,7 @@ const BusinessPage = () => {
             {
                 icon: 'building',
                 title: 'Company Incorporation & Registration',
-                description: 'From sole proprietorships to multinational branches, we assist with drafting legal documents and registering with Egyptian authorities swiftly.'
+                description: 'From sole proprietorships to multinational branches, we assist with drafting legal documents and registering with Ghanaian authorities swiftly.'
             },
             {
                 icon: 'file-earmark-lock',
@@ -83,7 +83,7 @@ const BusinessPage = () => {
             {
                 icon: 'people-fill',
                 title: 'Work Permits & Residency Services',
-                description: 'End-to-end assistance for obtaining Egyptian work and residency permits for foreign employees and investors.'
+                description: 'End-to-end assistance for obtaining Ghanaian work and residency permits for foreign employees and investors.'
             }
             ].map((service, idx) => (
             <div className="col-md-6 col-lg-6" key={idx} data-aos="fade-up" data-aos-delay={idx * 100}>

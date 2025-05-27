@@ -45,7 +45,7 @@ const Corporatelaw = () => {
                 Our practice spans company formation, M&A, joint ventures, regulatory compliance, corporate governance, and risk management. We understand the legal pulse of both domestic and international commercial landscapes, delivering business-first legal strategies.
                 </p>
                 <p style={{ color: '#3e2f1c', fontWeight: 300 }}>
-                Whether you're expanding into Egypt or optimizing your corporate structure, we are your strategic legal partners.
+                Whether you're expanding into Ghana or optimizing your corporate structure, we are your strategic legal partners.
                 </p>
             </div>
 
@@ -86,7 +86,7 @@ const Corporatelaw = () => {
                 fontStyle: 'italic'
                 }}>
                 <p className="mb-0" style={{ fontSize: '1.05rem', color: '#3e2f1c' }}>
-                    “Our firm is trusted by Egypt’s leading corporations for its clear counsel, strategic foresight, and relentless professionalism in handling corporate law matters with confidence.”
+                    “Our firm is trusted by Ghana’s leading corporations for its clear counsel, strategic foresight, and relentless professionalism in handling corporate law matters with confidence.”
                 </p>
                 </div>
             </div>
