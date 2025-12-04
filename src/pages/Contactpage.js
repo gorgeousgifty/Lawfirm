@@ -66,7 +66,7 @@ const CorporatePage = () => {
         method="POST"
         >
         {/* Web3Forms Access Key */}
-        <input type="hidden" name="access_key" value="58d78e00-7064-483c-8c1d-0867e8660af3" />
+        <input type="hidden" name="access_key" value="ff584d71-d94a-48bb-a2c3-a3ddc5365c10" />
         <input type="hidden" name="subject" value="New Contact Message from Website" />
         <input type="hidden" name="redirect" value="https://www.theedwardsandco.com/ThankYouPage" />
 
