@@ -180,7 +180,7 @@ const DocumentPage = () => {
           <h6 className="fw-bold mb-3" style={{ color: '#5c4033', fontSize: '1rem' }}>Contact Us</h6>
           <p className="small mb-1"><i className="bi bi-geo-alt"></i> Cantonments, Accra, Ghana</p>
           <p className="small mb-1"><i className="bi bi-envelope"></i> eandepartners@gmail.com</p>
-          <p className="small mb-3"><i className="bi bi-telephone"></i> +233 24 817 0036</p>
+          <p className="small mb-3"><i className="bi bi-telephone"></i> +233 24 216 00877</p>
           <div className="d-flex gap-3">
             <a href="https://www.facebook.com/" className="text-dark"><i className="bi bi-facebook fs-6"></i></a>
             <a href="https://twitter.com/" className="text-dark"><i className="bi bi-twitter-x fs-6"></i></a>
